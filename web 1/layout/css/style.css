@@ -1,0 +1,308 @@
+/* .contenedor{
+    background-color: rgb(165, 21, 184);
+    height: 300px;
+}
+
+.navegacion{
+    display: block;
+    background-color: greenyellow;
+} */
+
+/* Estilos para el cuerpo de la página */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	background-color: #f5f5f5;
+}
+
+/* Estilos para el encabezado de la página */
+header {
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Estilos para el menú de navegación */
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: #333;
+	transition: all 0.3s ease;
+}
+
+nav a:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+/* Estilos para los elementos destacados */
+.destacados {
+	margin: 20px;
+}
+
+.destacados h2 {
+	margin-top: 0;
+	font-size: 24px;
+}
+
+.destacados ul {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-between;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.destacados li {
+	flex: 0 0 calc(33.33% - 20px);
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	transition: all 0.3s ease;
+}
+
+.destacados li:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.destacados li img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.destacados li h3 {
+	margin-top: 0;
+	font-size: 20px;
+}
+
+.destacados li p {
+	margin: 0;
+	font-size: 16px;
+}
+
+.destacados li button {
+	display: block;
+	margin: 10px auto 0;
+	padding: 10px 20px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.destacados li button:hover {
+	background-color: #fff;
+	color: #333;
+}
+
+/* Estilos para las categorías */
+.categorias {
+	margin: 20px;
+}
+
+.categorias h2 {
+	margin-top: 0;
+	font-size: 24px;
+}
+
+.categorias ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.categorias li {
+	margin-bottom: 10px;
+}
+
+.categorias a {
+	display: block;
+	padding: 10px;
+	background-color: #fff
+    color: #333;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+text-align: center;
+transition: all 0.3s ease;
+}
+
+.categorias a:hover {
+background-color: #333;
+color: #fff;
+}
+
+/* Estilos para el pie de página */
+footer {
+background-color: #333;
+padding: 20px;
+color: #fff;
+}
+
+footer p {
+margin: 0;
+}
+
+footer a {
+color: #fff;
+text-decoration: none;
+transition: all 0.3s ease;
+}
+
+footer a:hover {
+color: #f5f5f5;
+}
+
+/* Estilos para los botones */
+button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #333;
+color: #fff;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+
+button:hover {
+background-color: #fff;
+color: #333;
+}
+
+/* Estilos para la sección de bienvenida */
+.bienvenida {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+background-color: #f5f5f5;
+padding: 40px 20px;
+text-align: center;
+}
+
+.bienvenida h2 {
+margin-top: 0;
+font-size: 36px;
+}
+
+.bienvenida p {
+margin: 20px 0;
+font-size: 20px;
+}
+
+.bienvenida button {
+margin-top: 20px;
+}
+
+/* Estilos para la sección de promociones */
+.promociones {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+background-color: #fff;
+padding: 40px 20px;
+text-align: center;
+}
+
+.promociones h2 {
+margin-top: 0;
+font-size: 36px;
+}
+
+.promociones p {
+margin: 20px 0;
+font-size: 20px;
+}
+
+.promociones button {
+margin-top: 20px;
+}
+
+/* Estilos para la sección de características */
+.caracteristicas {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+background-color: #f5f5f5;
+padding: 40px 20px;
+}
+
+.caracteristicas ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.caracteristicas li {
+flex: 0 0 calc(33.33% - 20px);
+margin-bottom: 20px;
+background-color: #fff;
+padding: 20px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+text-align: center;
+transition: all 0.3s ease;
+}
+
+.caracteristicas li:hover {
+transform: translateY(-5px);
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.caracteristicas li img {
+max-width: 100%;
+height: auto;
+margin-bottom: 10px;
+}
+
+.caracteristicas li h3 {
+margin-top: 0;
+font-size: 20px;
+}
+
+.caracteristicas li p {
+margin: 0;
+font-size: 16px;
+}
