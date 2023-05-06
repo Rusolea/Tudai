@@ -1,0 +1,77 @@
+/* Estilos generales */
+
+
+    
+    /* Estilos de la sección Hero */
+    .hero {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    }
+    
+    .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    }
+    
+    .hero h3 {
+    font-size: 1.5rem;
+    }
+    
+    /* Estilos del header */
+    
+    
+    /* Estilos de la sección Acerca de nosotros */
+    .about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f8f8f8;
+    }
+    
+    .about-content {
+    flex-basis: 50%;
+    padding: 10px;
+    text-align: justify;
+    }
+    
+    .about-image {
+    flex-basis: 40%;
+    }
+    
+    .about-image img {
+    max-width: 100%;
+    height: auto;
+    }
+    
+    /* Estilos de la sección de equipo */
+    .team {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px;
+        background-color: #f8f8f8;
+    }
+    
+    .team h2 {
+    margin-bottom: 30px;
+    }
+    
+    .team ul {
+    margin-top: 20px;
+    padding-left: 0;
+    }
+    
+    .team li {
+    margin-bottom: 10px;
+    }
+    
+    
+    
+    /* Media queries para diseño responsivo */
+    
+    

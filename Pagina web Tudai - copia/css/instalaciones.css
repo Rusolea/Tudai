@@ -1,0 +1,77 @@
+/* Estilos generales */
+
+    
+    /* Estilos de la sección Hero */
+    
+    .hero {
+
+    align-items: center;
+    background: linear-gradient(to right, #14a8cf, #bf6bd7);
+    color: #ffffff;
+    text-align: center;
+    padding: 50px;
+    }
+    
+    .hero-content {
+    padding: 20px;
+    max-width: 90%;
+    text-align: center;
+    }
+    
+    header img {
+        width: 50px;
+        height: auto;
+        margin-right: 5px;
+      }
+    
+    /* Estilos de la sección de Servicios */
+    
+    .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+    }
+    
+    .service-box {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    }
+    
+    .service-box img {
+    max-width: 100%;
+    height: auto;
+    }
+    
+    /* Estilos de la sección de instalaciones */
+    
+    .facilities h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    }
+    
+    .facilities-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+    }
+    
+    .facility-box {
+    flex-basis: 45%;
+    margin-bottom: 30px;
+    }
+    
+    .facility-box img {
+    width: 100%;
+    height: auto;
+    }
+    
+
+      
+    
+   
