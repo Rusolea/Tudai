@@ -69,6 +69,26 @@
     .team li {
     margin-bottom: 10px;
     }
+
+    .entrenadores {
+        padding: 50px;
+        text-align: center;
+      }
+      
+      .entrenadores h2 {
+        margin-bottom: 30px;
+      }
+      
+      .entrenadores ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .entrenadores li {
+        margin-bottom: 10px;
+      }
+      
     
     
     
